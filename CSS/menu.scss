@@ -1,0 +1,24 @@
+.menu{
+    position: absolute;
+    width: 70px;
+    top: 5%;
+    right: 5%;  
+    .icone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 60%;
+            margin-top: 20px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.751);
+            box-sizing: border-box;
+        }
+        img:hover{
+            border: 2px solid rgba(255, 255, 255, 0.642);
+            transform: translate(-3px,-3px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.751);
+            transition: transform .3s, border 2s;
+        }
+    }
+}

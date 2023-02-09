@@ -1,0 +1,79 @@
+.fundo {
+  background: url(/imagens/fundo-madeira.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+}
+.fundo main {
+  position: relative;
+  height: 100vh;
+}
+.fundo main .iphone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 627px;
+  width: 311px;
+  background: url(/imagens/frame-iphone.png) no-repeat;
+}
+.fundo main .iphone #tela {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -49.5%);
+  height: 470px;
+  width: 268px;
+}
+
+.tela {
+  width: 100vw;
+  height: 100vh;
+  background: url(/imagens/tela-home.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.menu {
+  position: absolute;
+  width: 70px;
+  top: 5%;
+  right: 5%;
+}
+.menu .icone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .icone img {
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.751);
+  box-sizing: border-box;
+}
+.menu .icone img:hover {
+  border: 2px solid rgba(255, 255, 255, 0.642);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.751);
+  transition: transform 0.3s, border 2s;
+}
+
+::-webkit-scrollbar {
+  height: 0PX;
+  width: 0PX;
+}
+
+img {
+  width: 100VW;
+}
+
+.link {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=indice.css.map */

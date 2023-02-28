@@ -1,5 +1,5 @@
 .fundo {
-  background: url(/imagens/fundo-madeira.jpg) no-repeat top center;
+  background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
@@ -15,7 +15,7 @@
   transform: translate(-50%, -50%);
   height: 627px;
   width: 311px;
-  background: url(/imagens/frame-iphone.png) no-repeat;
+  background: url(../imagens/frame-iphone.png) no-repeat;
 }
 .fundo main .iphone #tela {
   position: relative;
@@ -26,10 +26,10 @@
   width: 268px;
 }
 
-.tela {
+.home {
   width: 100vw;
   height: 100vh;
-  background: url(/imagens/tela-home.jpg) no-repeat top center;
+  background: url(../imagens/tela-home.jpg) no-repeat top center;
   background-size: cover;
 }
 
